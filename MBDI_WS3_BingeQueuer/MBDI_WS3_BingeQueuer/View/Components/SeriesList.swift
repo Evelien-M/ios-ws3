@@ -9,8 +9,10 @@ import SwiftUI
 
 struct SeriesList: View {
     var body: some View {
-        List (seriesSourceList) {
-            series in BingeRow(series: series)
+        NavigationView {
+            List (seriesSourceList) {
+                series in BingeRow(series: series)
+            }
         }
     }
 }
