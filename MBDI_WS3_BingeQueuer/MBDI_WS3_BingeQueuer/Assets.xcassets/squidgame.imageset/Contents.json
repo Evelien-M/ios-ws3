@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "squidgame.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "squidgame.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },

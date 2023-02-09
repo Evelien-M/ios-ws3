@@ -13,9 +13,12 @@ struct SeriesList: View {
             Text("Series")
             NavigationView {
                 List (seriesSourceList) {
-                    series in NavigationLink(destination : BingeRow(series: series)) {
+                    series in NavigationLink(destination : SeriesDetail(series: series)) {
                         BingeRow(series: series)
                     }
+                }
+                .toolbar {
+                    EditButton()
                 }
             }
         }

@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "rickandmorty.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "rickandmorty.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
