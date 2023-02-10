@@ -10,12 +10,8 @@
 		00528BD0299517AC00A3AAD9 /* SeriesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00528BCF299517AC00A3AAD9 /* SeriesDetail.swift */; };
 		00528BD4299522F900A3AAD9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00528BD3299522F900A3AAD9 /* CircleImage.swift */; };
 		0067143E29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067143D29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift */; };
-		0067144029938AAD0040642C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067143F29938AAD0040642C /* ContentView.swift */; };
 		0067144229938AAD0040642C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0067144129938AAD0040642C /* Assets.xcassets */; };
 		0067144529938AAD0040642C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0067144429938AAD0040642C /* Preview Assets.xcassets */; };
-		0067144F29938AAE0040642C /* MBDI_WS3_BingeQueuerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067144E29938AAE0040642C /* MBDI_WS3_BingeQueuerTests.swift */; };
-		0067145929938AAE0040642C /* MBDI_WS3_BingeQueuerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067145829938AAE0040642C /* MBDI_WS3_BingeQueuerUITests.swift */; };
-		0067145B29938AAE0040642C /* MBDI_WS3_BingeQueuerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067145A29938AAE0040642C /* MBDI_WS3_BingeQueuerUITestsLaunchTests.swift */; };
 		0067146C299391440040642C /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067146B299391440040642C /* Series.swift */; };
 		0067146F299391B40040642C /* BingeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067146E299391B40040642C /* BingeRow.swift */; };
 		00671471299398C00040642C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00671470299398C00040642C /* MapView.swift */; };
@@ -44,14 +40,10 @@
 		00528BD3299522F900A3AAD9 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../../../../../../.Trash/CircleImage.swift; sourceTree = "<group>"; };
 		0067143A29938AAD0040642C /* MBDI_WS3_BingeQueuer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBDI_WS3_BingeQueuer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0067143D29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDI_WS3_BingeQueuerApp.swift; sourceTree = "<group>"; };
-		0067143F29938AAD0040642C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0067144129938AAD0040642C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0067144429938AAD0040642C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0067144A29938AAE0040642C /* MBDI_WS3_BingeQueuerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBDI_WS3_BingeQueuerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0067144E29938AAE0040642C /* MBDI_WS3_BingeQueuerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDI_WS3_BingeQueuerTests.swift; sourceTree = "<group>"; };
 		0067145429938AAE0040642C /* MBDI_WS3_BingeQueuerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBDI_WS3_BingeQueuerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0067145829938AAE0040642C /* MBDI_WS3_BingeQueuerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDI_WS3_BingeQueuerUITests.swift; sourceTree = "<group>"; };
-		0067145A29938AAE0040642C /* MBDI_WS3_BingeQueuerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDI_WS3_BingeQueuerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0067146B299391440040642C /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		0067146E299391B40040642C /* BingeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingeRow.swift; sourceTree = "<group>"; };
 		00671470299398C00040642C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../../../../../../Downloads/Code/MapView.swift; sourceTree = "<group>"; };
@@ -83,12 +75,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		005E8398299651780029B175 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0067144329938AAD0040642C /* Preview Content */,
+				0067143D29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift */,
+				0067144129938AAD0040642C /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		0067143129938AAD0040642C = {
 			isa = PBXGroup;
 			children = (
 				0067143C29938AAD0040642C /* MBDI_WS3_BingeQueuer */,
-				0067144D29938AAE0040642C /* MBDI_WS3_BingeQueuerTests */,
-				0067145729938AAE0040642C /* MBDI_WS3_BingeQueuerUITests */,
 				0067143B29938AAD0040642C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,13 +106,9 @@
 		0067143C29938AAD0040642C /* MBDI_WS3_BingeQueuer */ = {
 			isa = PBXGroup;
 			children = (
-				0067144329938AAD0040642C /* Preview Content */,
-				0067146A299390C10040642C /* Resources */,
 				00671468299390950040642C /* View */,
 				0067146729938FFD0040642C /* Model */,
-				0067143D29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift */,
-				0067143F29938AAD0040642C /* ContentView.swift */,
-				0067144129938AAD0040642C /* Assets.xcassets */,
+				005E8398299651780029B175 /* Resources */,
 			);
 			path = MBDI_WS3_BingeQueuer;
 			sourceTree = "<group>";
@@ -123,23 +119,6 @@
 				0067144429938AAD0040642C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0067144D29938AAE0040642C /* MBDI_WS3_BingeQueuerTests */ = {
-			isa = PBXGroup;
-			children = (
-				0067144E29938AAE0040642C /* MBDI_WS3_BingeQueuerTests.swift */,
-			);
-			path = MBDI_WS3_BingeQueuerTests;
-			sourceTree = "<group>";
-		};
-		0067145729938AAE0040642C /* MBDI_WS3_BingeQueuerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0067145829938AAE0040642C /* MBDI_WS3_BingeQueuerUITests.swift */,
-				0067145A29938AAE0040642C /* MBDI_WS3_BingeQueuerUITestsLaunchTests.swift */,
-			);
-			path = MBDI_WS3_BingeQueuerUITests;
 			sourceTree = "<group>";
 		};
 		0067146729938FFD0040642C /* Model */ = {
@@ -153,16 +132,11 @@
 		00671468299390950040642C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0067147229939D960040642C /* SeriesList.swift */,
+				00528BCF299517AC00A3AAD9 /* SeriesDetail.swift */,
 				0067146D2993916D0040642C /* Components */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		0067146A299390C10040642C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		0067146D2993916D0040642C /* Components */ = {
@@ -171,8 +145,6 @@
 				00528BD3299522F900A3AAD9 /* CircleImage.swift */,
 				00671470299398C00040642C /* MapView.swift */,
 				0067146E299391B40040642C /* BingeRow.swift */,
-				0067147229939D960040642C /* SeriesList.swift */,
-				00528BCF299517AC00A3AAD9 /* SeriesDetail.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -310,7 +282,6 @@
 				0067147329939D960040642C /* SeriesList.swift in Sources */,
 				00528BD4299522F900A3AAD9 /* CircleImage.swift in Sources */,
 				0067146C299391440040642C /* Series.swift in Sources */,
-				0067144029938AAD0040642C /* ContentView.swift in Sources */,
 				00671471299398C00040642C /* MapView.swift in Sources */,
 				0067146F299391B40040642C /* BingeRow.swift in Sources */,
 				0067143E29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift in Sources */,
@@ -322,7 +293,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0067144F29938AAE0040642C /* MBDI_WS3_BingeQueuerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,8 +300,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0067145929938AAE0040642C /* MBDI_WS3_BingeQueuerUITests.swift in Sources */,
-				0067145B29938AAE0040642C /* MBDI_WS3_BingeQueuerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

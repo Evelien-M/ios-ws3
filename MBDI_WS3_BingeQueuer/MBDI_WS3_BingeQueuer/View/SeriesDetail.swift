@@ -33,13 +33,6 @@ struct SeriesDetail: View {
 
 struct SeriesDetail_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            SeriesDetail(series: seriesSourceList[1])
-            SeriesDetail(series: seriesSourceList[2])
-            SeriesDetail(series: seriesSourceList[3])
-            SeriesDetail(series: seriesSourceList[4])
-            SeriesDetail(series: seriesSourceList[5])
-            SeriesDetail(series: seriesSourceList[6])
-        }
+        SeriesDetail(series: seriesSourceList[1])
     }
 }
