@@ -106,14 +106,13 @@
 		0067143C29938AAD0040642C /* MBDI_WS3_BingeQueuer */ = {
 			isa = PBXGroup;
 			children = (
+				0067144329938AAD0040642C /* Preview Content */,
 				0067146A299390C10040642C /* Resources */,
-				006714692993909C0040642C /* Components */,
 				00671468299390950040642C /* View */,
 				0067146729938FFD0040642C /* Model */,
 				0067143D29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift */,
 				0067143F29938AAD0040642C /* ContentView.swift */,
 				0067144129938AAD0040642C /* Assets.xcassets */,
-				0067144329938AAD0040642C /* Preview Content */,
 			);
 			path = MBDI_WS3_BingeQueuer;
 			sourceTree = "<group>";
@@ -157,13 +156,6 @@
 				0067146D2993916D0040642C /* Components */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		006714692993909C0040642C /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		0067146A299390C10040642C /* Resources */ = {
