@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00528BD0299517AC00A3AAD9 /* SeriesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00528BCF299517AC00A3AAD9 /* SeriesDetail.swift */; };
-		00528BD4299522F900A3AAD9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00528BD3299522F900A3AAD9 /* CircleImage.swift */; };
 		0067143E29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067143D29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift */; };
 		0067144229938AAD0040642C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0067144129938AAD0040642C /* Assets.xcassets */; };
 		0067144529938AAD0040642C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0067144429938AAD0040642C /* Preview Assets.xcassets */; };
 		0067146C299391440040642C /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067146B299391440040642C /* Series.swift */; };
 		0067146F299391B40040642C /* BingeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067146E299391B40040642C /* BingeRow.swift */; };
-		00671471299398C00040642C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00671470299398C00040642C /* MapView.swift */; };
 		0067147329939D960040642C /* SeriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0067147229939D960040642C /* SeriesList.swift */; };
+		DF9DA6D62997AFF700A437CF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DA6D42997AFF700A437CF /* MapView.swift */; };
+		DF9DA6D72997AFF700A437CF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DA6D52997AFF700A437CF /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		00528BCF299517AC00A3AAD9 /* SeriesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetail.swift; sourceTree = "<group>"; };
-		00528BD3299522F900A3AAD9 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../../../../../../.Trash/CircleImage.swift; sourceTree = "<group>"; };
 		0067143A29938AAD0040642C /* MBDI_WS3_BingeQueuer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBDI_WS3_BingeQueuer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0067143D29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBDI_WS3_BingeQueuerApp.swift; sourceTree = "<group>"; };
 		0067144129938AAD0040642C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,8 +45,9 @@
 		0067145429938AAE0040642C /* MBDI_WS3_BingeQueuerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBDI_WS3_BingeQueuerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0067146B299391440040642C /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		0067146E299391B40040642C /* BingeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingeRow.swift; sourceTree = "<group>"; };
-		00671470299398C00040642C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = ../../../../../../Downloads/Code/MapView.swift; sourceTree = "<group>"; };
 		0067147229939D960040642C /* SeriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesList.swift; sourceTree = "<group>"; };
+		DF9DA6D42997AFF700A437CF /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DF9DA6D52997AFF700A437CF /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 		0067146D2993916D0040642C /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				00528BD3299522F900A3AAD9 /* CircleImage.swift */,
-				00671470299398C00040642C /* MapView.swift */,
+				DF9DA6D52997AFF700A437CF /* CircleImage.swift */,
+				DF9DA6D42997AFF700A437CF /* MapView.swift */,
 				0067146E299391B40040642C /* BingeRow.swift */,
 			);
 			path = Components;
@@ -280,9 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0067147329939D960040642C /* SeriesList.swift in Sources */,
-				00528BD4299522F900A3AAD9 /* CircleImage.swift in Sources */,
+				DF9DA6D62997AFF700A437CF /* MapView.swift in Sources */,
 				0067146C299391440040642C /* Series.swift in Sources */,
-				00671471299398C00040642C /* MapView.swift in Sources */,
+				DF9DA6D72997AFF700A437CF /* CircleImage.swift in Sources */,
 				0067146F299391B40040642C /* BingeRow.swift in Sources */,
 				0067143E29938AAD0040642C /* MBDI_WS3_BingeQueuerApp.swift in Sources */,
 				00528BD0299517AC00A3AAD9 /* SeriesDetail.swift in Sources */,

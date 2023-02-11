@@ -14,7 +14,7 @@ struct SeriesList: View {
             Text("Series")
             NavigationView {
                 List {
-                    ForEach(seriesDataList, id: \Series.id){ series in
+                    ForEach(seriesDataList, id: \Series.id) { series in
                         NavigationLink(destination : SeriesDetail(series: series)) {
                             BingeRow(series: series)
                         }
